@@ -31,6 +31,7 @@ function load() {
 }
 
 $('.btn').on('click', function(ev) {
+  var url = document.URL;
     ev.preventDefault();
     // Remove existing iframe
     $('#container iframe').remove();
@@ -39,8 +40,8 @@ $('.btn').on('click', function(ev) {
         .addClass('twitter-share-button')
         .attr('href', 'http://twitter.com/share')
         .attr('data-size', 'large')
-        .attr('data-url', 'http://codepen.io/13337/pen/obLGoE')
-        .attr('data-text', document.getElementById("quotep").innerHTML + " ...Get more cool quotes at ");
+        .attr('data-url', url)
+        .attr('data-text', document.getElementById("quotep").innerHTML + " ...Get more cool quotes at " + url);
     $('#container').append(tweetBtn);
     twttr.widgets.load();
 });
