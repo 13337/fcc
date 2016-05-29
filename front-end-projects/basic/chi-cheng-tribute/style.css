@@ -1,0 +1,35 @@
+body {
+  background-color: #E9EAED;
+  font-family: monospace;
+}
+div {
+  text-align: center;
+}
+img {
+  max-height: 15em;
+  width: auto;
+}
+#top{
+  background-color: #4862A3;
+
+}
+
+h1 {
+  color: white;
+  width: 100%;
+}
+#content {
+  background-color: white;
+  margin:4% auto 0 auto;
+  width:70%;
+  text-align:left;
+  padding: .5% 2%;
+}
+#foot{
+  background-color: white;
+  width: 65%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
