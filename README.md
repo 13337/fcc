@@ -1,2 +1,2 @@
 # fcc
-Assorted projects and solutions for algorithm challenges from freecodecamp.
+Assorted solutions for algorithmic challenges and javascript projects from freecodecamp.
